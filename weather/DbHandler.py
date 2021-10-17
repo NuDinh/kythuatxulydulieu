@@ -9,7 +9,7 @@ class DbHandler:
 
     def open_connection_db (self):
         self.conn = psycopg2.connect(database = self.config.get('database'), user = self.config.get('user'), password = self.config.get('password'), port = self.config.get('port') )
-        print('Connect successfully..')
+        # print('Connect successfully..')
 
     def insertRecord(self, record_insert):
         sql = """ INSERT INTO weather_temp_his (city_id,

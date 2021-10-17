@@ -25,27 +25,29 @@ def cb_sigint_handler(signum, stack):
 
 if __name__ == "__main__":
     apiConfig = json.load(open("config/api_config.json","r"))
+    
+    # apiConfig = json.load(open("config/api_config.json","r"))
     ids = apiConfig.get('ids')
     token = apiConfig.get('APPID')
 
-    schedule.every().days.at("09:30:00").do(processData)
-    schedule.every().days.at("10:00:00").do(processData)
-    schedule.every().days.at("10:30:00").do(processData)
-    schedule.every().days.at("11:00:00").do(processData)
-    schedule.every().days.at("11:30:00").do(processData)
-    schedule.every().days.at("13:30:00").do(processData)
-    schedule.every().days.at("14:00:00").do(processData)
-    schedule.every().days.at("14:30:00").do(processData)
-    schedule.every().days.at("15:00:00").do(processData)
-    schedule.every().days.at("15:30:00").do(processData)
-    schedule.every().days.at("16:00:00").do(processData)
-    schedule.every().days.at("16:30:00").do(processData)
-    schedule.every().days.at("17:00:00").do(processData)
-    schedule.every().days.at("17:30:00").do(processData)
+    # schedule.every().days.at("09:30:00").do(processData)
+    # schedule.every().days.at("10:00:00").do(processData)
+    # schedule.every().days.at("10:30:00").do(processData)
+    # schedule.every().days.at("11:00:00").do(processData)
+    # schedule.every().days.at("11:30:00").do(processData)
+    # schedule.every().days.at("13:30:00").do(processData)
+    # schedule.every().days.at("14:00:00").do(processData)
+    # schedule.every().days.at("14:30:00").do(processData)
+    # schedule.every().days.at("15:00:00").do(processData)
+    # schedule.every().days.at("15:30:00").do(processData) 
+    # schedule.every().days.at("16:00:00").do(processData)
+    # schedule.every().days.at("16:30:00").do(processData)
+    # schedule.every().days.at("17:00:00").do(processData)
+    # schedule.every().days.at("17:30:00").do(processData)
 
     # schedule.every().days.at("17:31:00").do(processData)
 
-    # schedule.every(5).seconds.do(processData)
+    schedule.every(5).seconds.do(processData)
     is_interrupted = False
     signal.signal(signal.SIGINT, cb_sigint_handler)
     while(1):
