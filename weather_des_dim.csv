@@ -1,0 +1,56 @@
+ID,Description,Main,Icon
+200,thunderstorm with light rain,Thunderstorm,11d
+201,thunderstorm with rain,Thunderstorm,11d
+202,thunderstorm with heavy rain,Thunderstorm,11d
+210,light thunderstorm,Thunderstorm,11d
+211,thunderstorm,Thunderstorm,11d
+212,heavy thunderstorm,Thunderstorm,11d
+221,ragged thunderstorm,Thunderstorm,11d
+230,thunderstorm with light drizzle,Thunderstorm,11d
+231,thunderstorm with drizzle,Thunderstorm,11d
+232,thunderstorm with heavy drizzle,Thunderstorm,11d
+300,light intensity drizzle,Drizzle,09d
+301,drizzle,Drizzle,09d
+302,heavy intensity drizzle,Drizzle,09d
+310,light intensity drizzle rain,Drizzle,09d
+311,drizzle rain,Drizzle,09d
+312,heavy intensity drizzle rain,Drizzle,09d
+313,shower rain and drizzle,Drizzle,09d
+314,heavy shower rain and drizzle,Drizzle,09d
+321,shower drizzle,Drizzle,09d
+500,light rain,Rain,10d
+501,moderate rain,Rain,10d
+502,heavy intensity rain,Rain,10d
+503,very heavy rain,Rain,10d
+504,extreme rain,Rain,10d
+511,freezing rain,Rain,13d
+520,light intensity shower rain,Rain,09d
+521,shower rain,Rain,09d
+522,heavy intensity shower rain,Rain,09d
+531,ragged shower rain,Rain,09d
+600,light snow,Snow,13d
+601,Snow,Snow,13d
+602,Heavy snow,Snow,13d
+611,Sleet,Snow,13d
+612,Light shower sleet,Snow,13d
+613,Shower sleet,Snow,13d
+615,Light rain and snow,Snow,13d
+616,Rain and snow,Snow,13d
+620,Light shower snow,Snow,13d
+621,Shower snow,Snow,13d
+622,Heavy shower snow,Snow,13d
+701,mist,Mist,50d
+711,Smoke,Smoke,50d
+721,Haze,Haze,50d
+731,sand/ dust whirls,Dust,50d
+741,fog,Fog,50d
+751,sand,Sand,50d
+761,dust,Dust,50d
+762,volcanic ash,Ash,50d
+771,squalls,Squall,50d
+781,tornado,Tornado,50d
+800,clear sky,Clear,01d  01n
+801,few clouds: 11-25%,Clouds,02d  02n
+802,scattered clouds: 25-50%,Clouds,03d  03n
+803,broken clouds: 51-84%,Clouds,04d  04n
+804,overcast clouds: 85-100%,Clouds,04d  04n
