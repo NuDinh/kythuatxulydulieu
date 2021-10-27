@@ -7,7 +7,6 @@ password = 'password', port = '5432') as conn:
     with conn.cursor() as cur:
         with open('config/vn_list_eng.json','r') as my_file: #config/vn_list.json
             data = json.load(my_file)
-            print(data)
             cur.execute("""CREATE TABLE IF NOT EXISTS weather_city_dim
             (
             id	VARCHAR PRIMARY KEY ,
