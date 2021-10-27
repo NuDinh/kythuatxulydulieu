@@ -3,12 +3,12 @@ import json
 import psycopg2
 
 with psycopg2.connect(database = 'weatherdb', user = 'postgres', 
-password = 'admin', port = '5432') as conn:
+password = 'password', port = '5432') as conn:
     with conn.cursor() as cur:
         with open('config/vn_list_eng.json','r') as my_file: #config/vn_list.json
             data = json.load(my_file)
             print(data)
-            cur.execute("""CREATE TABLE IF NOT EXISTS weather_city_dim_V1
+            cur.execute("""CREATE TABLE IF NOT EXISTS weather_city_dim
             (
             id	VARCHAR PRIMARY KEY ,
             name	VARCHAR(50) 	,	
@@ -16,8 +16,8 @@ password = 'admin', port = '5432') as conn:
             country VARCHAR(50) 	,	
             coord json		
                 ) """)
-            query_sql = """ insert into weather_city_dim_V1
-                select * from json_populate_recordset(NULL::weather_city_dim_V1, %s) """
+            query_sql = """ insert into weather_city_dim
+                select * from json_populate_recordset(NULL::weather_city_dim, %s) """
             # print(json.dumps(data))
 
             cur.execute(query_sql, (json.dumps(data),))
