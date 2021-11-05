@@ -22,7 +22,7 @@
     {
         "id": 1559970,
         "name": "Ninh Binh",
-        "state": "Nam Trung Bo",
+        "state": "Dong Bang Song Hong",
         "country": "VN",
         "coord": {
             "lon": 105.833328,
@@ -280,16 +280,6 @@
         }
     },
     {
-        "id": 1570565,
-        "name": "Hau Giang",
-        "state": "Dong Bang Song Cuu Long",
-        "country": "VN",
-        "coord": {
-            "lon": 105.533333,
-            "lat": 21.01667
-        }
-    },
-    {
         "id": 1570815,
         "name": "Lai Chau",
         "state": "Tay Bac Bo",
@@ -297,16 +287,6 @@
         "coord": {
             "lon": 103.349998,
             "lat": 22.533331
-        }
-    },
-    {
-        "id": 1571968,
-        "name": "Ninh Binh",
-        "state": "Dong Bang Song Hong",
-        "country": "VN",
-        "coord": {
-            "lon": 105.974998,
-            "lat": 20.253889
         }
     },
     {
@@ -341,7 +321,7 @@
     },
     {
         "id": 1576632,
-        "name": "Lang Sơn",
+        "name": "Lang Son",
         "state": "Dong Bac Bo",
         "country": "VN",
         "coord": {
