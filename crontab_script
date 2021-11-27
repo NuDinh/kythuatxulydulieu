@@ -24,4 +24,4 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-15 9,10,11,12,13,14,15,16,17,18 * * * python3 /home/tuongnlc/Desktop/data_engineer_project/final/kythuatxulydulieu/weather/WeatherApp_update.py
+15 9,10,11,12,13,14,15,16,17,18 * * * python3 /home/tuongnlc/Desktop/data_engineer_project/final/kythuatxulydulieu/weather/WeatherApp.py
