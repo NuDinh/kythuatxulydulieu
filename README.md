@@ -6,4 +6,4 @@
 Cách 1: Chạy code trên 
 # Code chạy trên Terminal 1. Tạo bảng => python WeatherCreateTables.py
 # Insert bảng Dim => python WeatherInsertDim.py
-# Insert bảng temp_hist => WeatherApp.py => Dừng CHương trình => Crtl + C trong Terminal
+# Insert bảng temp_hist => WeatherApp_linux_version.py => data cập nhật theo lịch được thiết  tại file crontab_script
