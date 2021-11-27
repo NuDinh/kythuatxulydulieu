@@ -24,5 +24,5 @@ class ProcessData:
         ,datetime.fromtimestamp(self.data.get('dt'))
         )
 
-        dbhandler =  DbHandler() # Khoi tạo đối tượng
+        dbhandler =  DbHandler()
         dbhandler.insertRecord(record_to_insert)
